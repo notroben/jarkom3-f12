@@ -302,8 +302,8 @@
 - Configuration
 
   Dumbledore
-![image](https://github.com/user-attachments/assets/b6b08331-4572-49ac-a41c-ed664b82cf99)
 ![image](https://github.com/user-attachments/assets/8521370d-4d0a-42e7-a02d-69c47753b714)
+![image](https://github.com/user-attachments/assets/b6b08331-4572-49ac-a41c-ed664b82cf99)
 
   SeverusSnape
 ![image](https://github.com/user-attachments/assets/2a81b443-2d23-4a65-b019-b4b743c4ab58)
@@ -312,7 +312,7 @@
 
 - Explanation
 
-  `Put your explanation in here`
+  Range IP untuk semua node yg diminta sudah disetting dengan DHCP Server di SeverusSnape dan DHCP Relay di Dumbledore.
 
 <br>
 
