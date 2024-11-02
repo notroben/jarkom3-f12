@@ -335,11 +335,35 @@
 
 - Screenshot
 
-  `Put your screenshot in here`
+  ![image](https://github.com/user-attachments/assets/1d1a843c-77c2-4b1f-b025-b826d63fe3c6)
+  ![image](https://github.com/user-attachments/assets/80e66963-6add-4eb0-8803-30029539b0d1)
+
 
 - Configuration
 
-  `Put your configuration in here`
+  HermioneGranger
+  ```
+  auto eth0
+  iface eth0 inet dhcp
+  #  iface eth0 inet static
+  #  	address 192.239.1.4
+  #  	netmask 255.255.255.0
+  #  	gateway 192.239.1.1
+  
+  up echo nameserver 192.168.122.1 > /etc/resolv.conf
+  ```
+
+  ChoChang
+  ```
+  auto eth0
+  iface eth0 dhcp
+  #  iface eth0 inet static
+  #  	address 192.239.6.2
+  #  	netmask 255.255.255.0
+  #  	gateway 192.239.6.1
+  
+  up echo nameserver 192.168.122.1 > /etc/resolv.conf
+  ```
 
 - Explanation
 
