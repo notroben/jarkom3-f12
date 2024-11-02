@@ -381,15 +381,21 @@
 
 - Screenshot
 
-  `Put your screenshot in here`
-
+  ![image](https://github.com/user-attachments/assets/e236ea8a-e28b-49f2-b4ac-95ee157b7030)
+  ![image](https://github.com/user-attachments/assets/e847e5ca-8fc3-485d-b8fc-d2eef7af1581)
+  
 - Configuration
 
-  `Put your configuration in here`
+  Menambahkan baris
+  ```
+  default-lease-time x;
+  max-lease-time y;
+  ```
+  di semua konfigurasi subnet yang ada di dhcpd.conf di SeverusSnape.
 
 - Explanation
 
-  `Put your explanation in here`
+  Untuk Switch 1 dan 6, x adalah 600 (60 detik x 10 menit). Untuk switch 2, x adalah 300 (60 detik x 5 menit). Untuk switch 5, x adalah 1200 (60 detik x 20 menit). Sementara y untuk semua Switch adalah 6000 (60 detik x 100 menit).
 
 <br>
 
