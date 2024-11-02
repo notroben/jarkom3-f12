@@ -383,6 +383,7 @@
 
   ![image](https://github.com/user-attachments/assets/e236ea8a-e28b-49f2-b4ac-95ee157b7030)
   ![image](https://github.com/user-attachments/assets/e847e5ca-8fc3-485d-b8fc-d2eef7af1581)
+  (saat screenshot, saya lupa menambahkan titik koma (;). error ini sudah diperbaiki sebelum nomer selanjutnya)
   
 - Configuration
 
@@ -410,15 +411,33 @@
 
 - Screenshot
 
-  `Put your screenshot in here`
+  ![image](https://github.com/user-attachments/assets/8816c69d-f49c-4bc3-8522-61401ee78ec0)
 
 - Configuration
 
-  `Put your configuration in here`
+  Di dhcpd.conf di SeverusSnape, ditambahkan
+  ```
+  host HermioneGranger {
+  	hardware ethernet 82:c4:5f:9f:8c:f5;
+  	fixed-address 192.239.1.14;
+  }
+  ```
+  dibawah konfigurasi Switch 1, dan
+  ```
+  host ChoChang {
+  	hardware ethernet 4a:31:ac:9b:97:e5;
+  	fixed-address 192.239.6.14;
+  }
+  ```
+  dibawah konfigurasi  Switch 6, lalu ditambahkan
+  ```
+  hwaddress ether [hwaddress node]
+  ```
+  di masing-masing node HermioneGranger dan ChoChang.
 
 - Explanation
 
-  `Put your explanation in here`
+  Semua sudah di konfigurasi sesuai yg diminta soal, dan sudah bisa melakukan ping ke google.com.
 
 <br>
 
