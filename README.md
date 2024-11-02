@@ -367,7 +367,7 @@
 
 - Explanation
 
-  `Put your explanation in here`
+  Range IP HermioneGranger dan ChoChang sudah diubah sesuai yang diminta dengan melakukan setting di node SeverusSnape dan melakukan rekonfigurasi pada Network Configuration untuk masing-masing node.
 
 <br>
 
