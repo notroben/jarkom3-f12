@@ -302,10 +302,12 @@
 - Configuration
 
   Dumbledore
+
 ![image](https://github.com/user-attachments/assets/8521370d-4d0a-42e7-a02d-69c47753b714)
 ![image](https://github.com/user-attachments/assets/b6b08331-4572-49ac-a41c-ed664b82cf99)
 
   SeverusSnape
+
 ![image](https://github.com/user-attachments/assets/2a81b443-2d23-4a65-b019-b4b743c4ab58)
 ![image](https://github.com/user-attachments/assets/5dc1ff7a-a7c4-493c-8a8e-93c58e120090)
 ![image](https://github.com/user-attachments/assets/dba18863-7837-4472-b2c2-5414fd94901a)
